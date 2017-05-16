@@ -1,0 +1,48 @@
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =        10285     M =           10
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     2.516D-03  2.972D-01
+    1    2     1     0  ---    0  5.5D+01  1.0D+00  1.104D-02  2.861D-01
+    2    3     0     0  con    0  1.0D+00  1.6D+00  1.025D-02  2.650D-01
+    3    4     0     0  con    0  1.0D+00  1.0D+01  1.948D-02  2.290D-01
+    4    5     0     0  con    0  1.0D+00  3.3D+00  3.823D-03  1.854D-01
+    5    6     0     0  con    0  1.0D+00  1.5D+00  1.889D-03  1.797D-01
+    6    7     0     0  con    0  1.0D+00  2.8D+00  2.258D-03  1.733D-01
+    7    8     0     0  con    0  1.0D+00  3.7D+00  2.419D-03  1.658D-01
+    8    9     0     0  con    0  1.0D+00  7.3D+00  3.959D-03  1.560D-01
+    9   10     0     0  con    0  1.0D+00  3.3D+00  2.990D-03  1.488D-01
+   10   11     0     0  con    0  1.0D+00  4.7D-01  1.581D-03  1.433D-01
+   11   12     0     0  con    0  1.0D+00  2.3D+00  1.739D-03  1.363D-01
+   12   13     0     0  con    0  1.0D+00  1.3D+00  1.703D-03  1.321D-01
+   13   14     0     0  con    0  1.0D+00  1.7D+00  3.803D-03  1.285D-01
+   14   15     0     0  con    0  1.0D+00  1.6D+00  1.608D-03  1.230D-01
+   15   16     0     0  con    0  1.0D+00  1.4D+00  1.677D-03  1.202D-01
+   16   17     0     0  con    0  1.0D+00  2.1D+00  1.664D-03  1.157D-01
+   17   18     0     0  con    0  1.0D+00  3.9D+00  2.496D-03  1.104D-01
+   18   19     0     0  con    0  1.0D+00  2.2D+00  1.342D-03  1.066D-01
+   19   20     0     0  con    0  1.0D+00  3.2D-01  6.061D-04  1.044D-01
+   20   21     0     0  con    0  1.0D+00  8.5D-01  9.683D-04  1.021D-01
+   21   22     0     0  con    0  1.0D+00  7.5D-01  1.439D-03  9.981D-02
+   22   23     0     0  con    0  1.0D+00  1.5D+00  2.057D-03  9.817D-02
+
+STOP: TOTAL NO. of ITERATIONS EXCEEDS LIMIT                 
+
+ Total User time 0.000E+00 seconds.
+
